@@ -1,7 +1,7 @@
 import Button from "./button";
 const Hero = () => {
   return (
-    <div className="h-screen w-full bg-[#212222]">
+    <div className="h-screen w-full bg-[#212222] ">
       <div className="flex flex-col md:flex-row items-center pt-14 px-16 gap-5">
         <div className="flex-1  font-poppins text-white flex flex-col pt-10">
           <span className="font-[100] text-6xl"> FOREX TRADERS</span>
