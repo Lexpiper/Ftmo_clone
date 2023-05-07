@@ -1,4 +1,4 @@
-import { Hero, Navbar, Stats } from "./components";
+import { Awards, Hero, Info, Navbar, Stats } from "./components";
 import styles from "./styles";
 
 function App() {
@@ -8,14 +8,16 @@ function App() {
         <Navbar />
       </div>
 
-      <div className={`bg-[#212122] ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.flexStart} w-full`}>
+        <div className={`bg-[#212222] pb-6 w-full`}>
           <Hero />
         </div>
       </div>
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} `}>
+      <div className={` ${styles.flexStart}`}>
+        <div className={` w-full h-full`}>
           <Stats />
+          <Awards />
+          <Info />
         </div>
       </div>
     </div>
