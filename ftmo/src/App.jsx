@@ -1,4 +1,9 @@
-import { Awards, Hero, Info, Navbar, Stats } from "./components";
+// import { Awards, Hero, Info, Navbar, Stats } from "./components";
+import Awards from "./components/Awards";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Info from "./components/info";
+import Stats from "./components/Stats";
 import styles from "./styles";
 
 function App() {
@@ -13,7 +18,7 @@ function App() {
           <Hero />
         </div>
       </div>
-      <div className={` ${styles.flexStart}`}>
+      <div className={` ${styles.flexStart} bg-[#f4f4f4]`}>
         <div className={` w-full h-full`}>
           <Stats />
           <Awards />

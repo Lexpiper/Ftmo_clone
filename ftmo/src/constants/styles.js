@@ -1,4 +1,5 @@
-export const navLinks = [
+export default {
+  navLinks : [
   {
     id: "1",
     title: "How it works ^",
@@ -27,9 +28,8 @@ export const navLinks = [
     id: "7",
     title: "Client Area",
   },
-];
-
-export const statlinks = [
+],
+statlinks : [
   {
     id: 1,
     figure: "$130M+",
@@ -50,9 +50,8 @@ export const statlinks = [
     figure: "8h",
     text: "Avg payout processing time",
   },
-];
-
-export const imgLinks = [
+],
+imgLinks : [
   {
     id: 1,
     link: "https://ftmo.com/wp-content/themes/ftmo-com/public/images/svg/awards/ey.svg",
@@ -77,4 +76,5 @@ export const imgLinks = [
     id: 6,
     link: "https://ftmo.com/wp-content/themes/ftmo-com/public/images/svg/awards/deloitte_2019.svg",
   },
-];
+]
+};
