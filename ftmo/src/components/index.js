@@ -10,6 +10,7 @@ import button from "./button";
 import Hero from "./Hero";
 import CTA from "./CTA";
 import Propinfo from "./Propinfo";
+import Currency from "./Currency";
 
 export {
   Navbar,
@@ -23,5 +24,6 @@ export {
   button,
   Hero,
   CTA,
-  Propinfo
+  Propinfo,
+  Currency,
 };
