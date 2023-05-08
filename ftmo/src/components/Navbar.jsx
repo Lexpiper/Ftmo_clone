@@ -1,4 +1,4 @@
-import { navLinks } from "../constants/styles";
+import styles from "../constants/styles";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
         alt="logo"
       />
       <ul className="flex font-poppins leading-10  tracking-wider font-normal">
-        {navLinks.map((nav, index) => (
+        {styles.navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal  hover:text-primary cursor-pointer transition-all ease-in-out duration-300  ${
@@ -26,7 +26,7 @@ const Navbar = () => {
             src="https://ftmo.com/wp-content/uploads/flags/en.png"
             alt="en"
           />
-          <spancl>EN</spancl>
+          <span>EN</span>
           <AiOutlineSearch className="font-bold text-lg ml-3" />
         </span>
       </ul>

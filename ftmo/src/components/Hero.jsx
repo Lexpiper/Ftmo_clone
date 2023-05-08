@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "../components/button";
 const Hero = () => {
   return (
     <div className="h-screen w-full bg-[#212222] ">
@@ -15,15 +15,15 @@ const Hero = () => {
             </span>
           </div>
           <div className="flex items-center gap-7  w-full h-full mt-10 text-lg font-poppins">
-            <Button
+            <Button 
               bg={"bg-primary"}
               title={"FTMO Challenge"}
-              hover={"hover:bg-[2c94fe]"}
+              hover={"hover:bg-[#2c94fe]"}
             />
             <Button
               bg={"bg-secondary"}
               title={"Free Trial"}
-              hover={"hover:bg-white"}
+              hover={"hover:bg-white hover:text-secondary"}
               border={"border-2"}
             />
           </div>
