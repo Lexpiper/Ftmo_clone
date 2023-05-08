@@ -1,12 +1,6 @@
-
 import { Awards, Hero, Navbar, Stats } from "./components";
 
 // import { Awards, Hero, Info, Navbar, Stats } from "./components";
-import Awards from "./components/Awards";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Info from "./components/info";
-import Stats from "./components/Stats";
 
 import styles from "./styles";
 
