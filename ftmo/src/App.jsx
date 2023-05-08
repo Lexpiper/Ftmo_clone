@@ -1,7 +1,5 @@
 import { Awards, Hero, Navbar, Stats } from "./components";
 
-// import { Awards, Hero, Info, Navbar, Stats } from "./components";
-
 import styles from "./styles";
 
 function App() {
