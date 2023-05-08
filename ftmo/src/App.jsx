@@ -1,4 +1,4 @@
-import { Awards, Hero, Info, Navbar, Stats } from "./components";
+import { Awards, Hero, Navbar, Stats } from "./components";
 import styles from "./styles";
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
         <div className={` w-full h-full`}>
           <Stats />
           <Awards />
-          <Info />
         </div>
       </div>
     </div>
