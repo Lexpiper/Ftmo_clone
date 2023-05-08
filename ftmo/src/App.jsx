@@ -1,4 +1,4 @@
-import { Awards, Hero, Navbar, Stats } from "./components";
+import { Awards, Evaluation, Hero, Navbar, Objectives, Propinfo, Stats } from "./components";
 
 import styles from "./styles";
 
@@ -18,6 +18,9 @@ function App() {
         <div className={` w-full h-full`}>
           <Stats />
           <Awards />
+          <Propinfo />
+          <Evaluation/>
+          <Objectives/>
         </div>
       </div>
     </div>
