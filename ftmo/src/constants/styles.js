@@ -77,4 +77,8 @@ imgLinks : [
     link: "https://ftmo.com/wp-content/themes/ftmo-com/public/images/svg/awards/deloitte_2019.svg",
   },
 ]
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> fdf98bf209047b2bb5875062616ba8c43f730f1d
