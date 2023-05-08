@@ -18,12 +18,12 @@ const Hero = () => {
             <Button 
               bg={"bg-primary"}
               title={"FTMO Challenge"}
-              hover={"hover:bg-[2c94fe]"}
+              hover={"hover:bg-[#2c94fe]"}
             />
             <Button
               bg={"bg-secondary"}
               title={"Free Trial"}
-              hover={"hover:bg-white"}
+              hover={"hover:bg-white hover:text-secondary"}
               border={"border-2"}
             />
           </div>

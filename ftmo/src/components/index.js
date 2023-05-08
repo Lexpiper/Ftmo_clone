@@ -9,7 +9,6 @@ import Table from "./Table";
 import button from "./button";
 import Hero from "./Hero";
 import CTA from "./CTA";
-import Info from "./info";
 
 export {
   Navbar,
@@ -23,5 +22,4 @@ export {
   button,
   Hero,
   CTA,
-  Info,
 };
