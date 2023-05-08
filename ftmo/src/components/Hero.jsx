@@ -21,9 +21,9 @@ const Hero = () => {
               hover={"hover:bg-[#2c94fe]"}
             />
             <Button
-              bg={"bg-secondary"}
+              bg={"bg-[#212222]"}
               title={"Free Trial"}
-              hover={"hover:bg-white hover:text-secondary"}
+              hover={"hover:bg-white hover:text-black"}
               border={"border-2"}
             />
           </div>
