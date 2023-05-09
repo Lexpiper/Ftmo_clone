@@ -9,7 +9,7 @@ const Currency = () => {
       <div className="flex ">
         {styles.currency.map((cur) => (
           <div
-            className=" mx-4 flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] gap-[10px] text-[14px] font-medium"
+            className="shadow-lg bg-white mx-4 flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] gap-[10px] text-[14px] font-medium"
             key={cur.id}
           >
             <img
