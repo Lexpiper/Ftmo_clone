@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import CTA from "./CTA";
 import Propinfo from "./Propinfo";
 import Currency from "./Currency";
+import ObjTable from "./ObjTable";
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   CTA,
   Propinfo,
   Currency,
+  ObjTable,
 };
