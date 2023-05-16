@@ -1,3 +1,7 @@
+// import { RiFilePaperLine } from "react-icons/ri";
+// import { SlCalender } from "react-icons/sl";
+// import { BiStopwatch } from "react-icons/bi";
+
 export default {
   navLinks: [
     {
@@ -215,4 +219,24 @@ export default {
       step3: "refund",
     },
   ],
+  // highlight: [
+  //   {
+  //     id: "h1 1",
+  //     icon: (<SlCalender />),
+  //     title: "Swing Account",
+  //     p: "Pick the FTMO Account that perfectly suits your trading style and needs. FTMO Account Swing has no restrictions on holding positions over the weekend or trading during macroeconomic releases.",
+  //   },
+  //   {
+  //     id: "h1 2",
+  //     icon: (<RiFilePaperLine />),
+  //     title: "Scaling Plan",
+  //     p: "We aim for long-term business relationships. If you manage to be consistent and profitable, we will increase the balance of your FTMO Account by 25% every 4 months according to the Scaling Plan",
+  //   },
+  //   {
+  //     id: "h1 1",
+  //     icon: (<BiStopwatch />),
+  //     title: "Free Trial",
+  //     p: "If you are still not sure, you have the option to try the process completely for free. The Free Trial account is a shortened version of our FTMO Challenge with the same trading conditions",
+  //   },
+  // ],
 };
