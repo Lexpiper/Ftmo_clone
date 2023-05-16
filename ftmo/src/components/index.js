@@ -12,6 +12,7 @@ import CTA from "./CTA";
 import Propinfo from "./Propinfo";
 import Currency from "./Currency";
 import ObjTable from "./ObjTable";
+import Highlight from "./Highlight";
 
 export {
   Navbar,
@@ -28,4 +29,5 @@ export {
   Propinfo,
   Currency,
   ObjTable,
+  Highlight,
 };
