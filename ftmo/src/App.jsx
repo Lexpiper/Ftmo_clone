@@ -1,4 +1,13 @@
-import { Awards, Evaluation, Hero, Navbar, Objectives, Propinfo, Stats } from "./components";
+import {
+  Awards,
+  Evaluation,
+  Hero,
+  Highlight,
+  Navbar,
+  Objectives,
+  Propinfo,
+  Stats,
+} from "./components";
 
 import styles from "./styles";
 
@@ -19,8 +28,9 @@ function App() {
           <Stats />
           <Awards />
           <Propinfo />
-          <Evaluation/>
-          <Objectives/>
+          <Evaluation />
+          <Objectives />
+          <Highlight />
         </div>
       </div>
     </div>
