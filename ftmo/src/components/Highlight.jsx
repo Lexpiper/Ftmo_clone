@@ -1,6 +1,9 @@
 import { RiFilePaperLine } from "react-icons/ri";
 import { SlCalender } from "react-icons/sl";
 import { BiStopwatch } from "react-icons/bi";
+import Ftbox from "./Ftbox";
+import Paysystem from "./Paysystem";
+import Retail from "./Retail";
 
 const Highlight = () => {
   return (
@@ -57,6 +60,9 @@ const Highlight = () => {
           </div>
         </div>
       </div>
+      <Ftbox />
+      <Paysystem />
+      <Retail />
     </div>
   );
 };
