@@ -8,6 +8,7 @@ import {
   Propinfo,
   Stats,
 } from "./components";
+import Livetable from "./components/Livetable";
 
 import styles from "./styles";
 
@@ -31,6 +32,7 @@ function App() {
           <Evaluation />
           <Objectives />
           <Highlight />
+          <Livetable />
         </div>
       </div>
     </div>
