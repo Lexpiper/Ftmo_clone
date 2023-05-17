@@ -13,6 +13,8 @@ import Propinfo from "./Propinfo";
 import Currency from "./Currency";
 import ObjTable from "./ObjTable";
 import Highlight from "./Highlight";
+import Paysystem from "./Paysystem";
+import Retail from "./Retail";
 
 export {
   Navbar,
@@ -30,4 +32,6 @@ export {
   Currency,
   ObjTable,
   Highlight,
+  Paysystem,
+  Retail,
 };
