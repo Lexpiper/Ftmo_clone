@@ -1,4 +1,4 @@
-import styles from "../constants/styles";
+import styles from "../constants/data";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const Navbar = () => {
