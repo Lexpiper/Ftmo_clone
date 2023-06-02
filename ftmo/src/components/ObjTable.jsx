@@ -1,5 +1,5 @@
 import { RiArrowDropDownLine } from "react-icons/ri";
-import styles from "../constants/styles";
+import styles from "../constants/data";
 
 const ObjTable = () => {
   const headers = [
