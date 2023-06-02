@@ -1,4 +1,4 @@
-import styles from "../constants/styles";
+import data from "../constants/data";
 
 const Currency = () => {
   return (
@@ -7,7 +7,7 @@ const Currency = () => {
         Currency:
       </div>
       <div className="flex ">
-        {styles.currency.map((cur) => (
+        {data.currency.map((cur) => (
           <div
             className="shadow-lg bg-white mx-4 flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] gap-[10px] text-[14px] font-medium"
             key={cur.id}
