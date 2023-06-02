@@ -1,6 +1,6 @@
 import Currency from "./Currency";
-import styles from "../constants/styles";
 import ObjTable from "./ObjTable";
+import data from "../constants/data";
 const Objectives = () => {
   return (
     <div className="flex flex-col bg-[#f4f4f4] px-10 pt-20">
@@ -31,7 +31,7 @@ const Objectives = () => {
         Balance:
       </div>
       <div className="flex-wrap flex items-cent gap-[20px] flex-start">
-        {styles.amount.map((amt) => (
+        {data.amount.map((amt) => (
           <div
             key={amt.id}
             className=" bg-white mx-4 shadow-lg flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] gap-[10px] text-[14px] font-medium"
