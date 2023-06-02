@@ -15,6 +15,7 @@ import ObjTable from "./ObjTable";
 import Highlight from "./Highlight";
 import Paysystem from "./Paysystem";
 import Retail from "./Retail";
+import livedata from "./livedata";
 
 export {
   Navbar,
@@ -34,4 +35,5 @@ export {
   Highlight,
   Paysystem,
   Retail,
+  livedata,
 };
