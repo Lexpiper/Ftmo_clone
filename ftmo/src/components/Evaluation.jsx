@@ -1,5 +1,5 @@
 import Button from "./button";
-import styles from "../constants/styles";
+import data from "../constants/data";
 
 const Evaluation = () => {
   return (
@@ -19,7 +19,7 @@ const Evaluation = () => {
             <div className="w-full border-t border-gray-400" />
 		</div> */}
             <div className="flex items-center w-full">
-              {styles.Eval.map((eva) => (
+              {data.Eval.map((eva) => (
                 <div
                   key={eva.id}
                   className="flex flex-col w-full m-[6.5%] min-h-[309px] p-[25px] rounded-[20px] text-left align-top bg-white"
