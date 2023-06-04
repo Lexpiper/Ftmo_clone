@@ -1,13 +1,14 @@
 import Currency from "./Currency";
 import ObjTable from "./ObjTable";
 import data from "../constants/data";
+
 const Objectives = () => {
   return (
-    <div className="flex flex-col bg-[#f4f4f4] px-10 pt-20">
-      <h3 className="text-[#262729] text-[1.875rem] font-poppins font-medium tracking-wider mb-[30px] pb-[10px] w-full clear-both">
+    <div className="flex flex-col bg-[#f4f4f4] px-5 md:px-20 py-10">
+      <h3 className="text-[#262729] text-[1.875rem] font-poppins font-medium tracking-wider mb-6 md:mb-10">
         Know your Trading objectives
       </h3>
-      <span className="text-[#555B6C] text-[0.875rem] leading-6 tracking-wider font-poppins">
+      <span className="text-[#555B6C] text-sm md:text-base leading-[24px] tracking-wider font-poppins">
         Before we allow you to trade for our Proprietary Trading Firm, we need
         to be sure that you can manage risk. For this reason, we developed
         Trading Objectives. By meeting the Trading Objectives, you prove that
@@ -16,31 +17,27 @@ const Objectives = () => {
         position size you trade.
       </span>
       <Currency />
-      <div className=" justify-start text-[16px] font-bold pb-[10px] pt-[20px]">
-        Risk:
-      </div>
-      <div className="flex-wrap flex items-cent gap-[20px] flex-start">
-        <div className=" bg-primary mx-4 shadow-lg flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] gap-[10px] text-[14px] font-medium">
+      <div className="text-base font-bold pb-2 pt-6 md:pt-10">Risk:</div>
+      <div className="flex flex-wrap items-center gap-4 md:gap-8">
+        <div className="bg-primary mx-2 md:mx-4 shadow-lg flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] text-sm md:text-base font-medium">
           Normal
         </div>
-        <div className="bg-white text-[#313234] mx-4 shadow-lg flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] gap-[10px] text-[14px] font-medium">
+        <div className="bg-white text-[#313234] mx-2 md:mx-4 shadow-lg flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] text-sm md:text-base font-medium">
           Normal
         </div>
       </div>
-      <div className="justify-start text-[16px] font-bold pb-[10px] pt-[20px]">
-        Balance:
-      </div>
-      <div className="flex-wrap flex items-cent gap-[20px] flex-start">
+      <div className="text-base font-bold pb-2 pt-6 md:pt-10">Balance:</div>
+      <div className="flex flex-wrap items-center gap-4 md:gap-8">
         {data.amount.map((amt) => (
           <div
             key={amt.id}
-            className=" bg-white mx-4 shadow-lg flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] gap-[10px] text-[14px] font-medium"
+            className="bg-white mx-2 md:mx-4 shadow-lg flex flex-row h-[45px] rounded-[5px] items-center justify-center w-[130px] text-sm md:text-base font-medium"
           >
             {amt.size}
           </div>
         ))}
       </div>
-      <div className="w-full h-full pt-20">
+      <div className="w-full h-full pt-10">
         <ObjTable />
       </div>
     </div>
