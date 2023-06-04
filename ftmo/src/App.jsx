@@ -1,14 +1,19 @@
 import {
   Awards,
+  CTA,
   Evaluation,
+  Footer,
   Hero,
   Highlight,
   Navbar,
   Objectives,
   Propinfo,
+  Proprietary,
   Stats,
 } from "./components";
+import Firms from "./components/Firms";
 import Livetable from "./components/Livetable";
+import Review from "./components/Review";
 
 import styles from "./styles";
 
@@ -33,6 +38,11 @@ function App() {
           <Objectives />
           <Highlight />
           <Livetable />
+          <Proprietary />
+          <Firms />
+          <Review />
+          <CTA/>
+          <Footer/>
         </div>
       </div>
     </div>
