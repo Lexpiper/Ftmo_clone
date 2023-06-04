@@ -7,12 +7,12 @@ import Retail from "./Retail";
 
 const Highlight = () => {
   return (
-    <div className="bg-[#f4f4f4] py-10 px-20">
+    <div className="bg-[#f4f4f4] py-10 px-5 md:px-20">
       <div className="text-[#262729] text-[1.875rem] font-poppins font-medium tracking-wider mb-[30px] pb-[10px] w-full clear-both">
         Key Highlights
       </div>
-      <div className="flex items-center justify-center p-4">
-        <div className="grid grid-cols-1 items-center justify-center  w-full h-full bg-[#f4f4f4]">
+      <div className="flex flex-col items-center justify-center p-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full h-full bg-[#f4f4f4]">
           <div className="flex items-center pb-6">
             <SlCalender className="text-blue-500 text-2xl mr-3" />
             <div className="text-lg tracking-wider font-poppins font-medium text-[#262729]">
@@ -26,9 +26,7 @@ const Highlight = () => {
               over the weekend or trading during macroeconomic releases.
             </p>
           </div>
-        </div>
 
-        <div className="grid grid-cols-1 items-center justify-center  w-full h-full bg-[#f4f4f4]">
           <div className="flex items-center pb-6">
             <RiFilePaperLine className="text-blue-500 text-2xl mr-3" />
             <div className="text-lg tracking-wider font-poppins font-medium text-[#262729]">
@@ -42,9 +40,7 @@ const Highlight = () => {
               FTMO Account by 25% every 4 months according to the Scaling Plan
             </p>
           </div>
-        </div>
 
-        <div className="grid grid-cols-1 items-center justify-center  w-full h-full bg-[#f4f4f4]">
           <div className="flex items-center pb-6">
             <BiStopwatch className="text-blue-500 text-2xl mr-3" />
             <div className="text-lg tracking-wider font-poppins font-medium text-[#262729]">
