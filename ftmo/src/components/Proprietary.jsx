@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import PropSlide from "./PropSlide";
+import data from "../constants/data";
 
 const Proprietary = () => {
   const [tab, settab] = useState(1);
@@ -48,22 +49,22 @@ const Proprietary = () => {
     },
     {
       id: 2,
-      no: "https://ftmo.com/wp-content/uploads/2022/11/02.jpg",
+      no: "02",
       text: "Account Analysis",
     },
     {
       id: 3,
-      no: "02.",
+      no: "03.",
       text: "Customer Support",
     },
     {
       id: 4,
-      no: "03.",
+      no: "04.",
       text: "Trading Academy",
     },
     {
       id: 5,
-      no: "04",
+      no: "05",
       text: "Performance Coach",
     },
   ];
@@ -78,7 +79,7 @@ const Proprietary = () => {
           Find out how you can benefit with FTMO.
         </span>
       </div>
-      <div className="grid grid-cols-5">
+      <div className="grid grid-cols-5 mb-4">
         {PropData.map(({ id, no, text }, i) => (
           <TabHeader id={id} no={no} text={text} key={i} />
         ))}
@@ -86,13 +87,29 @@ const Proprietary = () => {
       <div>
         {tab == 1 && (
           <div>
-            <PropSlide />
+            <PropSlide slides={data.PropData1} />
           </div>
         )}
-        {tab == 2 && <div>Account Analysis</div>}
-        {tab == 3 && <div>Customer Support</div>}
-        {tab == 4 && <div>Trading Academy</div>}
-        {tab == 5 && <div>Performance Coach</div>}
+        {tab == 2 && (
+          <div>
+            <PropSlide slides={data.PropData2} />
+          </div>
+        )}
+        {tab == 3 && (
+          <div>
+            <PropSlide slides={data.PropData3} />
+          </div>
+        )}
+        {tab == 4 && (
+          <div>
+            <PropSlide slides={data.PropData4} />
+          </div>
+        )}
+        {tab == 5 && (
+          <div>
+            <PropSlide slides={data.PropData5} />
+          </div>
+        )}
       </div>
     </div>
   );
