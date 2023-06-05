@@ -8,7 +8,7 @@ const Button = ({ bg, title, hover, border, padding, width }) => {
         hover ? hover : null
       } ${
         border ? border : "border-none"
-      } transition-all ease-in-out duration-300 cursor-pointer`}
+      } transition-all ease-in-out duration-300 cursor-pointer font-poppins`}
     >
       <a href="">{title}</a>
     </div>
