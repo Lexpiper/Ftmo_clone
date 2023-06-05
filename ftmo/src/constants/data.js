@@ -545,4 +545,108 @@ export default {
       cost: "---",
     },
   ],
+
+  PropData1: [
+    {
+      id: 1,
+      num: "01",
+      title: "Benefit from our custom trading apps",
+      img: "https://ftmo.com/wp-content/uploads/2022/11/01.jpg",
+      text: "We’ve developed several apps for our traders. Some of them will help you with discipline, while others can assist with journaling or analysing the markets.",
+      btnText: "Learn more",
+    },
+  ],
+  PropData2: [
+    {
+      id: 2,
+      num: "02",
+      title: "Account Analysis",
+      img: "https://ftmo.com/wp-content/uploads/2022/11/02.jpg",
+      text: "When we decided to create this project, we knew that we have to offer our traders an unbiased look at their trading results. Why? Because it does not matter if the trader is a beginner or a professional, another opinion is always invaluable. For many traders, trading is also a lonely activity where many times, even your closest ones do not understand what you do on your computer for so many hours.",
+      btnText: "Take a look",
+    },
+  ],
+  PropData3: [
+    {
+      id: 3,
+      num: "03",
+      title: "Customer Support",
+      img: "https://ftmo.com/wp-content/uploads/2023/01/03-customer-support.jpg",
+      text: "Communication with traders is absolutely essential for us. We strive to assist not only in the process of becoming the FTMO Trader but also after that. Our qualified Customer Support specialists are always there for you via email, phone, or live chat. We communicate in 17 global languages and our Customer Support is rated as one of the best in the industry.",
+      btnText: "Chat with us",
+    },
+  ],
+  PropData4: [
+    {
+      id: 4,
+      num: "04",
+      title: "Trading Academy",
+      img: "https://ftmo.com/wp-content/uploads/2022/11/04.jpg",
+      text: "For beginner traders, we’ve prepared tutorials to help you get started with platforms and trading basics. In addition, we organize educational webinars on advanced trading topics and cooperate with well-known traders and mentors.",
+      btnText: "Sign up",
+    },
+  ],
+  PropData5: [
+    {
+      id: 5,
+      num: "05",
+      title: "Performance Coach",
+      img: "https://ftmo.com/wp-content/uploads/2022/11/05.jpg",
+      text: "In order to suppress bad habits and unwanted behaviour, it is essential to find a source of such behaviour and this isn’t always easy. For this reason, we have hired qualified Performance coaches for our team.  Our Performance coaches will lay down some particular questions specific to every individual and will try to guide you to understand the problems. Mutual cooperation should result in a long-term solution and eliminate unwanted manners and consequently lead to better trading results.",
+      btnText: "Learn more",
+    },
+  ],
+  Cards: [
+    {
+      id: "id 1",
+      title: "The best trading conditions",
+      text: "FTMO Solution with a wide choice of assets across the board, with very low commissions and super-raw spreads.",
+      img: "",
+    },
+    {
+      id: "id 2",
+      title: "Leverage 1:100",
+      text: "Use professional trader’s leverage to your advantage with no imposed limits on position sizing.",
+      img: "",
+    },
+    {
+      id: "id 3",
+      title: "One-time fee only",
+      text: "No recurrent charges, no membership or other hidden fees. Moreover, the fee is automatically reimbursed to you with the first Profit Split.",
+      img: "",
+    },
+    {
+      id: "id 4",
+      title: "The most popular trading platforms",
+      text: "MT4, MT5, or cTrader. Choose yourself!",
+      img: "",
+    },
+    {
+      id: "id 5",
+      title: "No limits on trading style!",
+      text: "Trade your own trading strategy with no limits or restrictions. You can use EAs, hedging or trade discretionary.",
+      img: "",
+    },
+    {
+      id: "id 6",
+      title: "Trade every instrument you want",
+      text: "Forex, Commodities, Indices, Crypto, Stocks, Bonds.",
+      img: "",
+    },
+  ],
+  reviews: [
+    {
+      title: "Great service!",
+      description: "I had an amazing experience with FTMO. Highly recommended.",
+      rating: 5,
+      author: "John Doe",
+    },
+    {
+      title: "Impressive platform",
+      description:
+        "FTMO provides a user-friendly platform with excellent features.",
+      rating: 4,
+      author: "Jane Smith",
+    },
+  ],
 };
