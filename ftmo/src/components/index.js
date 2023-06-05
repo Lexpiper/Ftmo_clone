@@ -16,6 +16,9 @@ import Highlight from "./Highlight";
 import Paysystem from "./Paysystem";
 import Retail from "./Retail";
 import livedata from "./livedata";
+import Proprietary from "./Proprietary";
+import Firms from "./Firms";
+import Cards from "./Cards";
 
 export {
   Navbar,
@@ -36,4 +39,7 @@ export {
   Paysystem,
   Retail,
   livedata,
+  Proprietary,
+  Firms,
+  Cards,
 };
